@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(int argc, char* argv[]) {
+  int test = 0;
   int num = argc - 1;
   if (num == 0) {
   	printf("No arguments provided\n");
